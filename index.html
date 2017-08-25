@@ -10,6 +10,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css">
+    <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
     
@@ -60,10 +61,9 @@
              
               <ul class="main-nav nav navbar-nav navbar-right">
                 <li class="wow fadeInDown" data-wow-delay="0s"><a class="active" href="#" style="color:#ffffff;">Inicio</a></li>
-                <li class="wow fadeInDown" data-wow-delay="0.1s"><a href="#" style="color:#ffffff;">Transparencia</a></li>
-                <li class="wow fadeInDown" data-wow-delay="0.2s"><a href="#" style="color:#ffffff;">Institución</a></li>
+                <li class="wow fadeInDown" data-wow-delay="0.1s"><a href="#" style="color:#ffffff;">Tabla de Aplicabilidad</a></li>
+                <li class="wow fadeInDown" data-wow-delay="0.2s"><a href="#" style="color:#ffffff;">Artículo 75</a></li>
                 <li class="wow fadeInDown" data-wow-delay="0.3s"><a href="#" style="color:#ffffff;">Presupuesto Asignado e Informa de Avances</a></li>
-                <li class="wow fadeInDown" data-wow-delay="0.4s"><a href="#" style="color:#ffffff;">U. de Transparencia</a></li>
                
               </ul>
             </div>
@@ -118,51 +118,129 @@
     </div>
 
 </div>
+<!-- -->
 
-             <div class="content-area">
-                <div class="container">
-                
-                        <div class="row how-it-work text-center">
-                            <div class="col-md-4">
-                                <div class="single-work wow fadeInUp" data-wow-delay="0.8s">
-                                    <img src="img/transparencia1.png" alt="">
-                                    <h3>¿Qué es la transparencia?</h3>
-                                    <p>Using the outcomes from the job, we will put together a plan for the most effective marketing strategy to get the best results.</p>
-                                    <button class="btn btn-primary">Consultar</button>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="single-work  wow fadeInUp"  data-wow-delay="0.9s">
-                                    <img src="img/unidad-transparencia.png" alt="">
-                                    <h3>Unidad de Transparencia</h3>
-                                    <p>Using the outcomes from the job, we will put together a plan for the most effective marketing strategy to get the best results.</p>
-                                    <button class="btn btn-primary">Consultar</button>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="single-work wow fadeInUp"  data-wow-delay="1s">
-                                    <img src="img/solicitud-informacion.png" alt="">
-                                    <h3>Acceso a la información</h3>
-                                    <p>Using the outcomes from the job, we will put together a plan for the most effective marketing strategy to get the best results.</p>
-                                    <button class="btn btn-primary">Consultar</button>
-                                </div>
-                        </div>
-                        
-                        <div class="row how-it-work text-center">
-                            
-                            <div class="col-md-4 col-md-offset-4">
-                                <div class="single-work wow fadeInUp" data-wow-delay="0.8s">
-                                    <img src="img/datos-personales.png" alt="">
-                                    <h3>Protección de datos personales</h3>
-                                    <p>Using the outcomes from the job, we will put together a plan for the most effective marketing strategy to get the best results.</p>
-                                    <button class="btn btn-primary">Consultar</button>
-                                </div>
-                            </div>
+<div class="container ">
+  <ul id="filter"  class="uk-subnav uk-subnav-pill" >
+    <div class="uk-width-1-1 uk-margin" >
+      <h3 class="uk-margin-remove"  data-intro="Aquí podrás filtrar las fracciones de acuerdo a una categoría especifica." data-step="1">Filtrar por categoría:</h3>
+    </div>
+    <li class="uk-active" data-uk-filter="" ><a href="#" >Todas</a></li>
+    <li  class="uk-hidden-small" data-uk-filter="Normatividad"><a href="#">Normatividad</a></li>
+    <li class="uk-hidden-small" data-uk-filter="Financiero"><a href="#">Financiero</a></li>
+    <li  class="uk-hidden-small" data-uk-filter="Servidores Públicos"><a href="#">Servidores Públicos</a></li>
+    <li  class="uk-hidden-small" data-uk-filter="Documentos oficiales"><a href="#">Documentos oficiales</a></li>
+  </ul>
+</div>
 
-                        </div>
+<!--   -->
+  
+<div class="uk-container uk-container-center">
 
-                </div>
-            </div>
+    <div class="uk-grid" data-uk-grid="{ gutter:20,controls: '#filter'}">
+      
+      <div class="uk-width-medium-1-3" data-uk-filter="Normatividad">
+                      
+          <div class="uk-thumbnail uk-overlay-hover">
+                  
+              <figure class="uk-overlay">
+                  <img width="600" height="400" src="img/transparencia1.png" alt="">
+
+                  <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                   <a class="uk-position-cover" href="#"></a>
+
+               </figure>
+      
+                  <center>
+                    <br>
+                    <h3>Titulo de la foto</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde facere corporis quisquam expedita architecto, est ipsum quos sint placeat ipsa, praesentium molestiae, amet quae voluptate animi deserunt rerum reprehenderit.</p>
+                    <button class="btn btn-primary">Consultar</button>
+
+                  </center>
+
+          </div>
+          
+      </div>
+
+      <div class="uk-width-medium-1-3" data-uk-filter="Financiero">
+                      
+          <div class="uk-thumbnail uk-overlay-hover">
+                  
+              <figure class="uk-overlay">
+                  <img width="600" height="400" src="img/unidad-transparencia.png" alt="">
+
+                  <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                   <a class="uk-position-cover" href="#"></a>
+
+               </figure>
+
+                  <center>
+                    <br>
+                    <h3>Titulo de la foto</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde facere corporis quisquam expedita architecto, est ipsum quos sint placeat ipsa, praesentium molestiae, amet quae voluptate animi deserunt rerum reprehenderit.</p>
+                    <button class="btn btn-primary">Consultar</button>
+
+                  </center>
+
+          </div>
+
+      </div>
+
+      <div class="uk-width-medium-1-3" data-uk-filter="Servidores Públicos">
+                      
+          <div class="uk-thumbnail uk-overlay-hover">
+                  
+              <figure class="uk-overlay">
+                  <img width="600" height="400" src="img/datos-personales.png" alt="">
+
+                  <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                   <a class="uk-position-cover" href="#"></a>
+
+               </figure>
+
+                  <center>
+                    <br>
+                    <h3>Titulo de la foto</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde facere corporis quisquam expedita architecto, est ipsum quos sint placeat ipsa, praesentium molestiae, amet quae voluptate animi deserunt rerum reprehenderit.</p>
+                    <button class="btn btn-primary">Consultar</button>
+
+                  </center>
+
+          </div>
+          
+      </div>
+
+      <div class="uk-width-medium-1-3" data-uk-filter="Documentos oficiales">
+                      
+          <div class="uk-thumbnail uk-overlay-hover">
+                  
+              <figure class="uk-overlay">
+                  <img width="600" height="400" src="img/solicitud-informacion.png" alt="">
+
+                  <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                   <a class="uk-position-cover" href="#"></a>
+
+               </figure>
+
+                  <center>
+                    <br>
+                    <h3>Titulo de la foto</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde facere corporis quisquam expedita architecto, est ipsum quos sint placeat ipsa, praesentium molestiae, amet quae voluptate animi deserunt rerum reprehenderit.</p>
+                    <button class="btn btn-primary">Consultar</button>
+
+                  </center>
+
+          </div>
+          
+      </div>
+
+    </div>
+
+  </div>
+
+  <br> 
+             
 
   <div style='width:100%;height:90px;background:#30608F'><div style='height:10px'>&nbsp;</div>
   <center>
@@ -178,7 +256,10 @@
  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-    Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.xx.x/js/uikit.min.js"></script>
+    <script src="js/uikit.min.js"></script>
     <script src="js/wow.js"></script>
+    <script src="js/grid.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
