@@ -2,6 +2,8 @@
 
 body{
 	font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  
 }
 
 .header-connect{
@@ -155,4 +157,7 @@ background-color: #1A569D;
 
 .footer{width:970px;background:#30608F;}
 
+.uk-navbar-nav > li.uk-active > a {  
+  color: #ffffff;  
+}
 
