@@ -161,3 +161,51 @@ background-color: #1A569D;
   color: #ffffff;  
 }
 
+
+
+/*------------------------------*/
+
+.breadcrumb1 {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color:#274E67;
+  border-radius: 4px;
+}
+.breadcrumb1 > li {
+  display: inline-block;
+}
+.breadcrumb1 > li + li:before {
+  padding: 0 5px;
+  color:#F69E26;
+  content: "/\00a0";
+
+}
+.breadcrumb1 > .active {
+  color: #777;
+}
+
+/*---------------------------*/
+
+table { 
+    width: 100%; 
+    border-collapse: collapse;
+    overflow-y:scroll;
+   height:500px;
+   display:block; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #274E67; 
+    color: white; 
+
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    
+  }
+
