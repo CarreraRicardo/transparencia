@@ -189,11 +189,13 @@ background-color: #1A569D;
 
 table { 
     width: 100%; 
-    border-collapse: collapse;
-    overflow-y:scroll;
+    border-collapse: collapse;  
+   overflow-y:scroll;
    height:500px;
    display:block; 
+   
   }
+
   /* Zebra striping */
   tr:nth-of-type(odd) { 
     background: #eee; 
